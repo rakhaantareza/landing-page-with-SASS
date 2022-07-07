@@ -1,0 +1,208 @@
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.navbar-tp {
+  padding-top: 30px;
+}
+
+.navbar-tp .navbar-nav li {
+  padding-left: 40px;
+}
+
+.navbar-tp .navbar-nav .active {
+  color: #563AD6 !important;
+  font-weight: 500 !important;
+}
+
+.navbar-tp .navbar-nav .nav-link {
+  color: #02044A;
+  font-weight: 400;
+}
+
+.section-banner {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.section-banner h1 {
+  font-weight: 600;
+  font-size: 46px;
+  color: #02044A;
+}
+
+.section-banner p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #9B9CB7;
+}
+
+.section-banner img {
+  max-width: 100%;
+}
+
+.section-banner .btn-see-pricing {
+  background-color: #563AD6;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.section-banner .btn-see-pricing:hover {
+  background-color: #3ABAD6;
+  color: #fff;
+}
+
+.section-banner .btn-testimonials {
+  background-color: #EAEAF4;
+  color: #777790;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.section-banner .btn-testimonials:hover {
+  background-color: #777790;
+  color: #fff;
+}
+
+.section-banner .img-brands {
+  margin-top: 70px;
+}
+
+.section-pricing {
+  padding: 70px 0;
+  background-color: #F9F9FB;
+}
+
+.section-pricing h2 {
+  font-weight: 600;
+  font-size: 32px;
+  color: #02044A;
+}
+
+.section-pricing .subtitle {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #9B9CB7;
+}
+
+.section-pricing .card, .section-pricing .card-basic, .section-pricing .card-most {
+  padding: 30px;
+  border: none;
+  border-radius: 22px;
+}
+
+.section-pricing .card h5, .section-pricing .card-basic h5, .section-pricing .card-most h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section-pricing .card h3, .section-pricing .card-basic h3, .section-pricing .card-most h3 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.section-pricing .card p, .section-pricing .card-basic p, .section-pricing .card-most p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.section-pricing .card .btn, .section-pricing .card-basic .btn, .section-pricing .card-most .btn {
+  width: 100%;
+}
+
+.section-pricing .card .pricing-content, .section-pricing .card-basic .pricing-content, .section-pricing .card-most .pricing-content {
+  margin-top: 20px;
+}
+
+.section-pricing .card .pricing-content .item-benefit, .section-pricing .card-basic .pricing-content .item-benefit, .section-pricing .card-most .pricing-content .item-benefit {
+  margin-top: -20px;
+}
+
+.section-pricing .card .pricing-content .item-benefit img, .section-pricing .card-basic .pricing-content .item-benefit img, .section-pricing .card-most .pricing-content .item-benefit img {
+  float: left;
+  margin-right: 8px;
+}
+
+.section-pricing .card .pricing-content .item-benefit p, .section-pricing .card-basic .pricing-content .item-benefit p, .section-pricing .card-most .pricing-content .item-benefit p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.section-pricing .card-basic {
+  background: #fff;
+}
+
+.section-pricing .card-basic h5 {
+  color: #02044A;
+}
+
+.section-pricing .card-basic h3 {
+  color: #02044A;
+}
+
+.section-pricing .card-basic p {
+  color: #9B9CB7;
+}
+
+.section-pricing .card-basic .btn-start-with-this {
+  background-color: #563AD6;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.section-pricing .card-basic .btn-start-with-this:hover {
+  background-color: #3ABAD6;
+  color: #fff;
+}
+
+.section-pricing .card-basic .item-benefit p {
+  color: #02044A;
+}
+
+.section-pricing .card-most {
+  background: #563AD6;
+}
+
+.section-pricing .card-most .btn-primary {
+  background: #3ABAD6 !important;
+}
+
+.section-pricing .card-most h5 {
+  color: #fff;
+}
+
+.section-pricing .card-most h3 {
+  color: #fff;
+}
+
+.section-pricing .card-most p {
+  color: #B19FFF;
+}
+
+.section-pricing .card-most .btn-choose-this-plan {
+  background-color: #3ABAD6;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.section-pricing .card-most .btn-choose-this-plan:hover {
+  background-color: #B19FFF;
+  color: #fff;
+}
+
+.section-pricing .card-most .item-benefit p {
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */

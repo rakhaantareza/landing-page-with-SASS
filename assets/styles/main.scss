@@ -1,0 +1,198 @@
+@import './colors';
+@import './typo';
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.navbar-tp {
+  padding-top: 30px;
+
+  .navbar-nav {
+    li {
+      padding-left: 40px;
+    }
+    .active {
+      color: $purple !important;
+      font-weight: map-get($font-weights, medium) !important;
+    }
+    .nav-link {
+      color: $navy;
+      font-weight: map-get($font-weights, regular);
+    }
+  }
+}
+
+.section-banner {
+  padding-top: 100px;
+  padding-bottom: 70px;
+
+  h1 {
+    font-weight: map-get($font-weights, semibold);
+    font-size: 46px;
+    color: $navy;
+  }
+
+  p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: map-get($font-weights, regular);
+    font-size: 16px;
+    color: $newpur;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .btn-see-pricing {
+    background-color: $purple;
+    color: $white;
+    font-size: 16px;
+    font-weight: map-get($font-weights, medium);
+    border-radius: 10px;
+
+    &:hover {
+      background-color: $aqua;
+      color: $white;
+    }
+  }
+  
+  .btn-testimonials {
+    background-color: $sofpur;
+    color: $darpur;
+    font-size: 16px;
+    font-weight: map-get($font-weights, medium);
+    border-radius: 10px;
+
+    &:hover {
+      background-color: $darpur;
+      color: $white;
+    }
+  }
+
+  .img-brands {
+    margin-top: 70px;
+  }
+}
+
+.section-pricing {
+  padding: 70px 0;
+  background-color: $lilpur;
+
+  h2 {
+    font-weight: map-get($font-weights, semibold);
+    font-size: 32px;
+    color: $navy;
+  }
+  .subtitle {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: map-get($font-weights, regular);
+    font-size: 16px;
+    color: $newpur;
+  }
+
+  .card {
+    padding: 30px;
+    border: none;
+    border-radius: 22px;
+
+    h5 {
+      font-size: 18px;
+      font-weight: map-get($font-weights, medium);
+    }
+    h3 {
+      font-size: 36px;
+      font-weight: map-get($font-weights, semibold);
+    }
+    p {
+      font-size: 16px;
+      font-weight: map-get($font-weights, regular);
+      margin-bottom: 40px;
+    }
+    .btn {
+      width: 100%;
+    }
+    .pricing-content {
+      margin-top: 20px;
+      .item-benefit {
+        margin-top: -20px;
+        img {
+            float: left;
+            margin-right: 8px;
+        }
+        p {
+          font-size: 16px;
+          font-weight: map-get($font-weights, medium);
+        }
+      }
+    }
+  }
+
+  .card-basic {
+    @extend .card;
+    background: $white;
+    h5 {
+      color: $navy;
+    }
+    h3 {
+      color: $navy;
+    }
+    p {
+      color: $newpur;
+    }
+    .btn-start-with-this {
+      background-color: $purple;
+      color: $white;
+      font-size: 16px;
+      font-weight: map-get($font-weights, medium);
+      border-radius: 10px;
+
+      &:hover {
+        background-color: $aqua;
+        color: $white;
+      }
+    }
+    .item-benefit {
+      p {
+        color: $navy;
+      }
+    }
+  }
+
+    .card-most {
+      @extend .card;
+      background: $purple;
+      .btn-primary {
+        background: $aqua !important;
+      }
+      h5 {
+        color: $white;
+      }
+      h3 {
+        color: $white;
+      }
+      p {
+        color: $supportpur;
+      }
+      .btn-choose-this-plan {
+        background-color: $aqua;
+        color: $white;
+        font-size: 16px;
+        font-weight: map-get($font-weights, medium);
+        border-radius: 10px;
+  
+        &:hover {
+          background-color: $supportpur;
+          color: $white;
+        }
+      }
+      .item-benefit {
+        p {
+            color: $white;
+        }
+      }
+    }
+}
+
